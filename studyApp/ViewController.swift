@@ -40,16 +40,32 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTwo(_ sender: UIButton)
     {
+        buttonOne.backgroundColor = UIColor.lightGray
+        buttonTwo.backgroundColor = UIColor.red
+        buttonThree.backgroundColor = UIColor.lightGray
+        buttonFour.backgroundColor = UIColor.lightGray
+
         
     }
     
     @IBAction func buttonThree(_ sender: UIButton)
     {
-        
+        buttonThree.backgroundColor = UIColor.green
+        buttonOne.isHidden = true
+        buttonTwo.isHidden = true
+        buttonFour.isHidden = true
+        labelOne.isHidden = true
+        labelTwo.isHidden = true
+        labelFour.isHidden = true
     }
     
     @IBAction func buttonFour(_ sender: UIButton)
     {
+        buttonOne.backgroundColor = UIColor.lightGray
+        buttonTwo.backgroundColor = UIColor.lightGray
+        buttonThree.backgroundColor = UIColor.lightGray
+        buttonFour.backgroundColor = UIColor.red
+
         
     }
     
