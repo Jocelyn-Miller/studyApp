@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController
-{
+class ViewController: UIViewController {
+    @IBOutlet weak var questionLabel: UILabel!
+
 
     
     @IBOutlet weak var buttonOne: UIButton!
@@ -25,8 +26,7 @@ class ViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        //hello
+        let question1 = "What does 'y' equal? 32(y + 10) + 29y + 3(y - 5) = 945"
     }
 
     @IBAction func buttonOne(_ sender: UIButton)
